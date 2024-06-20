@@ -3,7 +3,7 @@ let tipo = '';
 let C = 0;
 let K = 0;
 let F = 0;
-
+//segunda alteração
 console.log('escolha uma escala de temperatura: \nF - Fahrenheit, \nC - Celsius, \nK-Kelvin');
 process.stdin.once('data', function (data) {
     tipo = data.toString().trim().toLowerCase();
